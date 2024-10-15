@@ -16,7 +16,7 @@ interface WeatherDetailsProps {
     weatherData: WeatherData;
     forecastData: ForecastData[];
     location: string;
-    units: any
+    units: unknown
 }
 
 const fetchDailyForecast = (forecastData: ForecastData[]) => {
